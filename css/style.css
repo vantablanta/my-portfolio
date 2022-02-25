@@ -1,0 +1,36 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    margin: 0;
+}
+.header-img{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+}
+section.main-content{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+section{
+    margin: 0;
+}
+.main-content{
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .header-img{
+        max-height: 100px;
+        
+    }
+}
