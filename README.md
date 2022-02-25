@@ -1,19 +1,19 @@
-# my-portfolio
-# By **Michelle Njeri **
-# Description
+### my-portfolio
+### By Michelle Njeri 
+### Description
 A dive into who am I, my journey as a developer and my personal views on various life aspects.
-# Setup/Installation Requirements
+### Setup/Installation Requirements
 * Fork this repository
 * Clone it to your local environement
 * Push changes
 * View changes live by hsoting on Github Changes.
 * If you would like to contribute or correct an error you see, create a pull request and I'll be sure to review 
-## Known Bugs
+### Known Bugs
 * Doesn't resize appropriately
-## Technologies Used
+### Technologies Used
 * HTML for the structure 
 * CSS for the styling
-# Support 
+### Support 
 [Contact for Support](https://github.com/vantablanta) 
-# Licence 
+### Licence 
 [MIT License](https://github.com/vantablanta/my-portfolio/blob/master/LICENSE)
