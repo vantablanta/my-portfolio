@@ -18,4 +18,5 @@ A dive into who am I, my journey as a developer and my personal views on various
 ### Licence 
 [MIT License](https://github.com/vantablanta/my-portfolio/blob/master/LICENSE)
 ### Live Link
-[Portfolio]()
+[Portfolio](https://github.com/vantablanta/my-portfolio/blob/master/LICENSE)
+[]()
