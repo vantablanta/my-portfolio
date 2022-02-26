@@ -1,0 +1,131 @@
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: #C5C6C7;
+}
+img.header-img{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0px    
+}
+.top-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
+a{
+    color: #66FCF1;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #45A29E;
+}
+.mobile-view{
+    display: none;
+}
+.logo{
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+.home-content{
+    position: relative;
+    margin-left: 50px;
+}
+h1{
+    font-size: 60px;
+}
+.contact-page{
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+i.fa-brands{
+    padding: 30px;
+    font-size: 38px;
+    color: #66FCF1;
+}
+i.fa-brands:hover{
+    color: #45A29E;
+    font-size: 40;
+}
+button{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 140px;
+    padding: 10px;
+    background-color: #66FCF1;
+    border: none;
+    border-radius: 18px;   
+}
+button:hover{
+    background-color: #45A29E;    
+}
+hr{
+    height: 1px;
+    width: 50%;
+    background-color: #66FCF1;
+    margin-top:  50px;
+    border: none;
+}
+h4{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 766px) {
+    .header-img{
+        max-height: 200px;        
+    }
+    .top-bar{
+        margin: 0 30px 0 30px;
+    }
+    a{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+        color: #45A29E;
+        font-size: 30px;
+        margin: 20px;
+        position: relative;
+        top: 50px;
+    }
+    .mobile-view:hover{
+       color: #66FCF1;
+    }
+    .logo{
+        width: 150px;
+    }
+    ul{
+        display: none;
+    }
+    .my-image{
+        display: none;
+    }
+}
