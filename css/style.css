@@ -1,5 +1,4 @@
 body{
-    overflow: hidden;
     box-sizing: border-box;
     background-color: #000000;
     font-family: 'Playfair Display', serif;
@@ -45,15 +44,15 @@ a:hover{
     position: relative;
     top: 20px;
 }
-
-.main-content{
+.home-content{
     position: relative;
     margin-left: 50px;
 }
 h1{
     font-size: 60px;
 }
-.main-content{
+.home-content{
+ 
     margin: 0 100px 0 100px;
     display: flex;
     justify-content: space-between;
@@ -70,8 +69,29 @@ i.fa-brands{
 i.fa-brands:hover{
     color: #45A29E;
     font-size: 40;
-
 }
+button{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 140px;
+    padding: 10px;
+    background-color: #66FCF1;
+    border: none;
+    border-radius: 18px;   
+}
+button:hover{
+    background-color: #45A29E;    
+}
+img#footer-img{
+    position:relative;
+    height: 200px;
+    width: 100%;
+    bottom: 0px  
+}
+
+
+
+
 
 
 
