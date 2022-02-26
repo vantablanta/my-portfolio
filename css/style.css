@@ -1,8 +1,9 @@
 body{
     overflow: hidden;
-    margin: 0;
+    margin: 0 50px 0 50px;
     box-sizing: border-box;
     background-color: #000000;
+    font-family: 'Manrope', sans-serif;
 }
 img.header-img{
     height: 300px;
@@ -11,17 +12,40 @@ img.header-img{
     position: absolute;
     top: 0px 
 }
+a{
+    float: right;
+    top: 50px; 
+    position: relative;
+    color: #66FCF1;
+    text-decoration: none;
+    padding: 10px;
+}
+.mobile-view{
+    display: none;
+    position: relative;
+}
 
 
 
 
 
+@media screen and (max-width: 320px) {
+    body{
+        margin: 0px;
 
-
-@media screen and (max-width: 480px) {
-
+    }
     .header-img{
-        max-height: 100px;
-        
+        max-height: 100px;        
+    }
+    a{
+        top: 20px;
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+        color: #66FCF1;
+        margin: 20px;
+        float: right;
+        font-size: 20px;
     }
 }
