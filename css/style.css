@@ -4,6 +4,7 @@ body{
     font-family: 'Playfair Display', serif;
     margin: 0;
     color: #C5C6C7;
+    overflow: hidden;
 }
 img.header-img{
     height: 300px;
@@ -58,9 +59,10 @@ h1{
 .socials{
     display: flex;
     flex-direction: column;
+
 }
 i.fa-brands{
-    padding: 30px;
+    padding: 20px;
     font-size: 38px;
     color: #66FCF1;
 }
@@ -90,6 +92,9 @@ hr{
 h4{
     text-align: center;
     
+}
+.my-image{
+    height: 250px;
 }
 
 
