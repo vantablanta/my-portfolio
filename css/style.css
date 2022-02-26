@@ -2,25 +2,36 @@ body{
     overflow: hidden;
     box-sizing: border-box;
     background-color: #000000;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: #C5C6C7;
 }
 img.header-img{
     height: 300px;
     width: 100%;
     background-position: center;
     position: absolute;
-    top: 0px 
-    
+    top: 0px    
+}
+.top-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 a{
-    float: right;
-    top: 50px; 
-    position: relative;
     color: #66FCF1;
     text-decoration: none;
     padding: 20px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
+    position: relative;
+    top: 50px;
 }
 a:hover{
     text-decoration: underline;
@@ -28,44 +39,49 @@ a:hover{
 }
 .mobile-view{
     display: none;
-    position: relative;
 }
 .logo{
+    width: 200px;
     position: relative;
+    top: 20px;
 }
 
+.main-content{
+    position: relative;
+    margin-left: 50px;
+}
+h1{
+    font-size: 60px;
+}
 
 
 
 
 @media screen and (max-width: 766px) {
-    body{
-        margin: 0px;
-
-    }
     .header-img{
         max-height: 100px;        
     }
+    .top-bar{
+        margin: 0 30px 0 30px;
+    }
     a{
-        top: 20px;
         display: none;
     }
     .mobile-view{
-        top: 30px;
         display: block;
-        color: #66FCF1;
-        margin: 50px;
-        float: right;
-        font-size: 20px;
-        font-weight: bold;
+        color: #45A29E;
         font-size: 30px;
+        margin: 20px;
+        position: relative;
+        top: 50px;
     }
     .mobile-view:hover{
-        padding: 5px;
-        border: 2px solid #45A29E;
-        border-radius: 20px 30px;
+       color: #66FCF1;
     }
     .logo{
-        width: 30%;
+        width: 150px;
+    }
+    ul{
+        display: none;
     }
 }
