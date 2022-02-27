@@ -12,11 +12,28 @@ h3{
 }
 a{
     color: black;
-    margin: 0;
+    font-size: 20px;
     border: 2px solid #45A29E
 }
 a:hover{
     color: #C5C6C7;
     text-decoration: none;
     border: 2px solid #C5C6C7;
+}
+@media screen and (max-width: 766px) {
+    h3{
+        font-size: 20px;
+    }
+    h1{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    a{
+        display: block;
+        text-align: center;
+        width: 120px;
+        margin-left: 280px;
+    }
+
+
 }
