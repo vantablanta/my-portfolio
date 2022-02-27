@@ -23,7 +23,7 @@ ul{
     flex-wrap: nowrap;
 }
 a{
-    color: #66FCF1;
+    color: #45A29E;
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
@@ -44,34 +44,41 @@ a:hover{
     top: 20px;
 }
 .home-content{
-    margin-left: 50px;
+    margin: 10px 50px 10px 50px;
+    display: flex;   
+    flex-wrap: wrap;
+}
+#img{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #dfe9e9;
+.project-img{
+    width: 65%;
+    border-radius: 20px;
 }
-.text {
-    opacity: 1;
-    color: rgb(0, 0, 0);
+p{
+    padding: 50px;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
+.link{
+    padding: 0;
+    font-size: 18px;
+    margin: 0;
+    top: 2px;
+
+}
+.link:hover{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 hr{
     height: 1px;
     width: 50%;
@@ -82,19 +89,20 @@ hr{
 h4{
     text-align: center;    
 }
-.project-container{
-    margin: 20px 50px ;
-}
-.project-img{
-    height:350px;
-    margin-left:150px;
-    padding: 20px;
-}
+
+
+
+/*.
 p{
-    font-size: 15px;
-    margin: 0; 
-    text-align: center; 
+    width: 500px;
+    font-size: 20px;
+    position: absolute;
     color: #C5C6C7;
+}
+#google{
+    top: 300px;
+    right: 100px;
+    left: 750px;
 }
 a:hover{
     text-decoration: none;
@@ -102,6 +110,16 @@ a:hover{
 span{
     text-decoration: underline;
 }
+#counter{
+    position: absolute;
+    top: 600px
+}
+img:hover{
+    background-color: #000000;
+}*/
+
+
+
 
 
 
@@ -134,18 +152,23 @@ span{
     ul{
         display: none;
     }
-    .home-content{
-        flex-direction: column;
-        margin-left: 0;
-
-    }
-    .project-img{
+    #img{
+        display: block;
         margin: 10px;
-        width: 500px;
-        padding: 10px;
     }
-    .project-container{
-        margin: 20px;
+    p{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .home-content{
+        margin-top: 50px;      
+        top: 2px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
     }
 
     
