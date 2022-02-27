@@ -1,0 +1,22 @@
+body{
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+    color: #45A29E;
+    margin-top: 200px;
+}
+h3{
+    color: black;
+    font-size: 40px;
+}
+a{
+    color: black;
+    margin: 0;
+    border: 2px solid #45A29E
+}
+a:hover{
+    color: #C5C6C7;
+    text-decoration: none;
+    border: 2px solid #C5C6C7;
+}
