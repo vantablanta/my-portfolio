@@ -60,13 +60,13 @@ h1{
     flex-direction: column;
 }
 i.fa-brands{
-    padding: 30px;
+    padding: 20px;
     font-size: 38px;
     color: #66FCF1;
 }
 i.fa-brands:hover{
     color: #45A29E;
-    font-size: 40;
+    font-size: 40px;
 }
 button{
     font-family: 'Playfair Display', serif;

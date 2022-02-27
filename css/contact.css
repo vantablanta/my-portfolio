@@ -1,4 +1,5 @@
 body{
+ 
     box-sizing: border-box;
     background-color: #000000;
     font-family: 'Playfair Display', serif;
@@ -45,7 +46,10 @@ a:hover{
 }
 .home-content{
     position: relative;
-    margin-left: 50px;
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+
 }
 h1{
     font-size: 60px;
@@ -60,25 +64,13 @@ h1{
     flex-direction: column;
 }
 i.fa-brands{
-    padding: 30px;
+    padding: 20px;
     font-size: 38px;
     color: #66FCF1;
 }
 i.fa-brands:hover{
     color: #45A29E;
-    font-size: 40;
-}
-button{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    width: 140px;
-    padding: 10px;
-    background-color: #66FCF1;
-    border: none;
-    border-radius: 18px;   
-}
-button:hover{
-    background-color: #45A29E;    
+    font-size: 40px;
 }
 hr{
     height: 1px;
@@ -86,12 +78,49 @@ hr{
     background-color: #66FCF1;
     margin-top:  50px;
     border: none;
+    margin-top: 50px;
 }
 h4{
-    text-align: center;
-    
+    text-align: center;   
 }
-
+.form-items{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+    width: 50%;
+}
+form{
+    text-align: center;
+}
+input{
+    padding: 20px;
+}
+.inputs{
+    margin: 10px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.inputs-button{
+    padding: 10px;
+    margin: 0 0 0 60px;
+    float:left ;
+    background-color: #66FCF1;
+    border: none;
+    font-size: 15px;  
+    width: 8%;
+    height: 40px;
+    border-radius: 10px;
+}
+.inputs-button:hover{
+    background-color: #45A29E;
+}
+textarea{
+    width: 370px;
+    justify-content: center;
+    padding: 20px;
+}
 
 
 
@@ -128,4 +157,37 @@ h4{
     .my-image{
         display: none;
     }
+    i.fa-brands{
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+    input{
+        padding: 10px;
+    }
+    .inputs{
+        margin: 5px;
+    }
+    div.inputs-button{
+        padding: 10px;
+    }
+    .form-items{
+        display: flex;
+        padding: 20px 100px 20px 100px;
+    }
+    .inputs-button{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 110px;
+        width: 80px;
+        text-align: center;
+    }
+    textarea{
+        width: 170px;
+        justify-content: center;
+    }
+
+
+
+
+
 }
