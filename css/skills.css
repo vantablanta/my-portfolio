@@ -1,4 +1,5 @@
 body{
+    overflow: hidden;
     box-sizing: border-box;
     background-color: #000000;
     font-family: 'Playfair Display', serif;
@@ -45,40 +46,19 @@ a:hover{
 }
 .home-content{
     position: relative;
-    margin-left: 50px;
+    margin-left: 200px;
 }
-h1{
-    font-size: 60px;
-}
-.contact-page{
-    margin: 0 100px 0 100px;
-    display: flex;
-    justify-content: space-between;
-}
-.socials{
-    display: flex;
-    flex-direction: column;
+.skills{
+    display: flex;   
 }
 i.fa-brands{
     padding: 30px;
-    font-size: 38px;
+    font-size: 150px;
     color: #66FCF1;
 }
 i.fa-brands:hover{
     color: #45A29E;
-    font-size: 40px;
-}
-button{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    width: 140px;
-    padding: 10px;
-    background-color: #66FCF1;
-    border: none;
-    border-radius: 18px;   
-}
-button:hover{
-    background-color: #45A29E;    
+    font-size: 140px;
 }
 hr{
     height: 1px;
@@ -90,6 +70,15 @@ hr{
 h4{
     text-align: center;
     
+}
+p{
+    font-size: 30px;
+    margin-left: 50px;
+}
+p:hover{
+    font-size: 30px;
+    color: #66FCF1;
+
 }
 
 
@@ -127,5 +116,26 @@ h4{
     }
     .my-image{
         display: none;
+    }
+    .skills{
+        flex-direction: column;
+    }  
+    i.fa-brands{
+        padding: 30px;
+        font-size: 80px;
+        color: #66FCF1;
+    }
+    i.fa-brands:hover{
+        color: #45A29E;
+        font-size: 100px;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    p:hover{
+        font-size: 20px;
+        color: #66FCF1;
+    
     }
 }
