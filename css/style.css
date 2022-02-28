@@ -133,4 +133,7 @@ h4{
     .my-image{
         display: none;
     }
+    .home-content{
+        margin-left: 10px;
+    }
 }
